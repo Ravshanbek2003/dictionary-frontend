@@ -1,0 +1,7 @@
+export {LogoIcon} from './logo'
+export {DashboardIcon} from './dashboard'
+export {MentorsIcon} from './mentors'
+export {CreditsIcon} from './credits'
+export {FeedbacksIcon} from './feedbacks'
+export {StudentsIcon} from './students'
+export {ChevronDownIcon} from './chevron-down'
