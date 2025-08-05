@@ -79,3 +79,27 @@
     @apply font-fredoka text-22 font-semibold leading-30;
   }
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: inherit;
+  height: 1px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 100px;
+  transition: 150ms;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

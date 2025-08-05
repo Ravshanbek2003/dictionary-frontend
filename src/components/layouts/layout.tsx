@@ -17,7 +17,7 @@ export const Layout: React.FC<Props> = ({children}) => {
 
   return (
     <Wrapper>
-      <div className="pt-[84px]">{children}</div>
+      <div className="">{children}</div>
     </Wrapper>
   )
 }
