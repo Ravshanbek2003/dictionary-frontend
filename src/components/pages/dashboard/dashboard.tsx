@@ -130,7 +130,12 @@ export const DashboardPage = () => {
                     .map((item, index) => (
                       <TableRow>
                         <TableCell className="font-medium">{index + 1}</TableCell>
-                        <TableCell>{item.title}</TableCell>
+                        <TableCell>
+                          {item.title}{' '}
+                          <Badge variant="secondary" className="p-0 px-0.5">
+                            {item?.dictionary?.type === 'MODERN' ? 'zamonaviy' : 'tarixiy'}
+                          </Badge>
+                        </TableCell>
                         <TableCell>{'Rasm mavjud emas'}</TableCell>
                         <TableCell className="text-center">
                           <DropdownMenu>
